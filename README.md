@@ -1,14 +1,31 @@
 # What is Rakkyo
 
+This is code which was used for experiments for NAACL 2019 Paper:
+*Shrinking Japanese Morphological Analyzers With Neural Networks and Semi-supervised Learning*.
+Arseny Tolmachev, Daisuke Kawahara and Sadao Kurohashi.
 
 # Structure
 
 This is a mixed Scala/Spark and Python/TensorFlow 1.x project.
 
+You need to use Python 3.6+.
+Dependencies are Tensofrlow 1.10+ (but not 2.0 series), pyhocon, matplotlib
+
+For compiling preprocessing code you need to have JDK 1.8 installed with sbt 1.0+.
+For running it you need to have Spark 2.3.1 installed (standalone mode without Hadoop is OK).
+
+## Compiling preprocessing code
+
+```$ sbt assembly```
+
+`rakkyo/preproc/target/scala-2.11/preproc-assembly-0.1.0-SNAPSHOT.jar` will contain compilation results.
+
+# How to preprocess data
+
+
 You need to prepare the training data (TFExamples) using Spark,
 then you can train Rakkyo models.
 
-# How to preprocess data
 
 Rakkyo uses a lot of training data.
 We were using Apache Spark (with Hadoop as storage) for data preprocessing.
