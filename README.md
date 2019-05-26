@@ -8,6 +8,9 @@ Arseny Tolmachev, Daisuke Kawahara and Sadao Kurohashi.
 
 This is a mixed Scala/Spark and Python/TensorFlow 1.x project.
 
+**Warning**: code is of research quality and pretty unstructured.
+Beware of dragons, dirty hacks and spaghetti.
+
 You need to use Python 3.6+.
 Dependencies are Tensofrlow 1.10+ (but not 2.0 series), pyhocon, matplotlib
 
