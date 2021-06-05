@@ -2,7 +2,7 @@
 
 This is code which was used for experiments for NAACL 2019 Paper:
 *Shrinking Japanese Morphological Analyzers With Neural Networks and Semi-supervised Learning*.
-Arseny Tolmachev, Daisuke Kawahara and Sadao Kurohashi. ([pdf](https://www.aclweb.org/anthology/N19-1281), [bibtex](https://aclweb.org/anthology/papers/N/N19/N19-1281.bib))
+Arseny Tolmachev, Daisuke Kawahara and Sadao Kurohashi. ([pdf](https://www.aclweb.org/anthology/N19-1281), [bibtex](https://www.aclweb.org/anthology/N19-1281.bib))
 
 # Structure
 
